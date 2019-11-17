@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_detail_screen">
+    <sys_sg_master_detail_screen action="INSERT_OR_UPDATE">
+        <application_roles>x_26961_mobile_a.user</application_roles>
+        <available_offline>false</available_offline>
+        <data_item display_value="Task SLA">0d380902db42bb00d475f9afaa961966</data_item>
+        <description/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>true</hidden>
+        <icon display_value="file-alt">66d98142db42bb00d475f9afaa961963</icon>
+        <name>Task SLA</name>
+        <order>30</order>
+        <parent>f1767664dbad7f40d475f9afaa96194f</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_master_detail_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 14:23:28</sys_created_on>
+        <sys_id>1bd94942db42bb00d475f9afaa961950</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Task SLA</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_master_detail_screen_1bd94942db42bb00d475f9afaa961950</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-16 11:27:42</sys_updated_on>
+    </sys_sg_master_detail_screen>
+</record_update>

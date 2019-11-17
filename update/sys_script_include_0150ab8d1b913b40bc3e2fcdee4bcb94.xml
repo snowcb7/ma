@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_26961_mobile_a.MA_Util</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MA_Util</name>
+        <script><![CDATA[var MA_Util = Class.create();
+MA_Util.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	canAddRemoveBookmark : function (record,  user, action){
+		var grBookmark = new GlideRecord('x_26961_mobile_a_bookmark');
+		grBookmark.addQuery('record', record);
+		grBookmark.addQuery('user', user);
+		grBookmark.query();
+		if(action == 'add'){
+			return !(grBookmark.hasNext());
+		}
+		else if(action == 'remove'){
+			return grBookmark.hasNext();
+		}
+		return false;
+	},
+	triggerNotification : function (current, previous, property){
+		var arrayUtil = new global.ArrayUtil(),  allowed_tables;
+		
+		if(property == 'x_26961_mobile_a.task_assignment_notification_for_tables'){
+			allowed_tables = gs.getProperty(property, '');
+			allowed_tables = allowed_tables.trim().split(",");
+			if(arrayUtil.contains(allowed_tables, current.getValue('sys_class_name'))){
+				var group_chagnes = (previous.assignment_group != current.assignment_group);
+				var assigned_to_changes = (previous.assigned_to != current.assigned_to);
+				
+				if(group_chagnes && !assigned_to_changes)
+					gs.eventQueue('x_26961_mobile_a.ma_task_assignment', current, current.getValue('assignment_group'), 'your group');
+				
+				else if((group_chagnes && assigned_to_changes) || (!group_chagnes && assigned_to_changes))
+					gs.eventQueue('x_26961_mobile_a.ma_task_assignment', current, current.getValue('assigned_to'), 'you');
+			}
+		}else if(property == 'x_26961_mobile_a.task_comment_notification_table_list'){
+			allowed_tables = gs.getProperty(property, '');
+			allowed_tables = allowed_tables.trim().split(",");
+			if(arrayUtil.contains(allowed_tables, current.getValue('sys_class_name'))){
+				gs.eventQueue('x_26961_mobile_a.task_comments_add', current, '','');
+			}
+		}
+	},
+	validateTaskNotificationSysProperty: function(grSysProperty){
+		var error_msg = [], property_name, property_value, exception_list, arrayUtil = new global.ArrayUtil() ,cnt = 0;
+		property_name = grSysProperty.getValue('name');
+		property_value = grSysProperty.getValue('value');
+		if(property_name == 'x_26961_mobile_a.task_assignment_notification_for_tables'){
+			error_msg = this._validateTableList(grSysProperty);
+		}
+		
+		else if(property_name == 'x_26961_mobile_a.service_portal_url'){
+			var grPortal = new GlideRecord('sp_portal');
+			grPortal.addQuery('url_suffix', property_value);
+			grPortal.query();
+			if(!grPortal.hasNext()){
+				error_msg.push("Please provide a valid URL suffix of service portal.");
+			}
+		}
+		else if(property_name == 'x_26961_mobile_a.task_comment_notification_table_list'){
+			error_msg = this._validateTableList(grSysProperty);
+		}
+		return error_msg;
+	},
+	_validateTableList : function (grSysProperty){
+		var error_msg = [], property_name, property_value, exception_list, arrayUtil = new global.ArrayUtil() ,cnt = 0;
+		property_name = grSysProperty.getValue('name');
+		property_value = grSysProperty.getValue('value');
+		var invalidTableList = [], existingTaskNotificationTableList = [], notBaseTaskTable = [];
+		var table_list = property_value;
+		table_list = table_list.split(",");
+		if(table_list.length > 0){
+			for(cnt = 0; cnt < table_list.length; cnt++){
+				table_list[cnt] = table_list[cnt].trim();
+				if(table_list[cnt] == 'task')
+					error_msg.push("'task' table not allowed");
+			}
+			
+			if(table_list.length > 0){
+				// Find Duplicate tables
+				var sorted_arr = table_list.slice().sort();
+				var duplicate_tables = [];
+				for (var i = 0; i < sorted_arr.length - 1; i++) {
+					if (sorted_arr[i + 1] == sorted_arr[i]) {
+						duplicate_tables.push(sorted_arr[i]);
+					}
+				}
+				if(duplicate_tables.length > 0)
+					error_msg.push("Duplicate table name(s) present: [ "+ duplicate_tables.toString() +" ]");
+				
+				// Validate Table present or not
+				for(cnt = 0; cnt < table_list.length; cnt++){
+					var grTable = new GlideRecord(table_list[cnt]);
+					if(!grTable.isValid()){
+						invalidTableList.push(table_list[cnt]);
+					}
+				}
+				if(invalidTableList.length > 0)
+					error_msg.push("Invalid table name(s) provided: [ "+invalidTableList.toString() +" ]");
+				
+				// check for incident table
+				if(arrayUtil.contains(table_list, 'incident')){
+					var grStore = new GlideRecord('sys_store_app');
+					grStore.addQuery('sys_id', '1b57e525673023005326c3105685ef07'); // ITSM Mobile APP
+					grStore.query();
+					if(grStore.hasNext()){
+						error_msg.push("Push notification for 'incident' table already present in ITSM Mobile app");
+					}
+				}
+				//isBase table is "task"
+				for(cnt = 0; cnt < table_list.length; cnt++){
+					if( new GlideTableHierarchy( table_list[cnt] ).getBase() != "task"){
+						notBaseTaskTable.push(table_list[cnt]);
+					}
+				}
+				if(notBaseTaskTable.length > 0)
+					error_msg.push("Only table(s) extending from 'task' table are permitted : [ "+ notBaseTaskTable.toString() +" ]");
+				
+			}
+		}
+		return error_msg;
+	},
+	type: 'MA_Util'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-07 13:16:40</sys_created_on>
+        <sys_id>0150ab8d1b913b40bc3e2fcdee4bcb94</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>MA_Util</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_script_include_0150ab8d1b913b40bc3e2fcdee4bcb94</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-05 11:08:12</sys_updated_on>
+    </sys_script_include>
+</record_update>

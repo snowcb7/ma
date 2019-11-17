@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-11-17 14:22:22">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order>3001</order>
+        <read_roles>x_26961_mobile_a.user</read_roles>
+        <roles>x_26961_mobile_a.admin</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-10 10:21:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ddf856ce1b91fb40bc3e2fcdee4bcbe2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Mobile Assistant</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_portal_page_ddf856ce1b91fb40bc3e2fcdee4bcbe2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-10 10:26:19</sys_updated_on>
+        <title>Mobile Assistant</title>
+        <user/>
+        <view/>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Mobile Assistant">ddf856ce1b91fb40bc3e2fcdee4bcbe2</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2019-05-10 10:22:04</sys_created_on>
+                <sys_id>67f85ace1b91fb40bc3e2fcdee4bcb32</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2019-05-10 10:22:04</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-05-10 03:22:04">67f85ace1b91fb40bc3e2fcdee4bcb32</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-05-10 10:22:04</sys_created_on>
+                        <sys_id>63f85ace1b91fb40bc3e2fcdee4bcb33</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-05-10 10:22:04</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-05-10 03:22:04">67f85ace1b91fb40bc3e2fcdee4bcb32</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-05-10 10:22:04</sys_created_on>
+                        <sys_id>67f85ace1b91fb40bc3e2fcdee4bcb33</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-05-10 10:22:04</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-05-10 03:22:04">67f85ace1b91fb40bc3e2fcdee4bcb32</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-05-10 10:22:04</sys_created_on>
+                        <sys_id>6bf85ace1b91fb40bc3e2fcdee4bcb33</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-05-10 10:22:04</sys_updated_on>
+                        <value>My Bookmark</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-05-10 03:22:04">67f85ace1b91fb40bc3e2fcdee4bcb32</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-05-10 10:22:04</sys_created_on>
+                        <sys_id>6ff85ace1b91fb40bc3e2fcdee4bcb32</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-05-10 10:22:04</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-05-10 03:22:04">67f85ace1b91fb40bc3e2fcdee4bcb32</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-05-10 10:22:04</sys_created_on>
+                        <sys_id>e7f85ace1b91fb40bc3e2fcdee4bcb32</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-05-10 10:22:04</sys_updated_on>
+                        <value>1f67da0e1b91fb40bc3e2fcdee4bcb3c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2019-05-10 03:22:04">67f85ace1b91fb40bc3e2fcdee4bcb32</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-05-10 10:22:04</sys_created_on>
+                        <sys_id>eff85ace1b91fb40bc3e2fcdee4bcb33</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-05-10 10:22:04</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

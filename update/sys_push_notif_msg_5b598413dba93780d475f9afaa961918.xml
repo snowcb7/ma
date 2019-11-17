@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>${sys_class_name} ${number} ${priority} priority comments added</message_string>
+        <name>MA_Task_Comments_Added</name>
+        <push_app display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</push_app>
+        <push_message_content display_value="MA_Task_Comments_Added">dcb98813dba93780d475f9afaa961971</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-26 07:23:24</sys_created_on>
+        <sys_id>5b598413dba93780d475f9afaa961918</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>MA_Task_Comments_Added</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_push_notif_msg_5b598413dba93780d475f9afaa961918</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-02 01:52:32</sys_updated_on>
+        <table>task</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

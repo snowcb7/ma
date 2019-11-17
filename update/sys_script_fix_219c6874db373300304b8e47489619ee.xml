@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description>From Newyork - sys_sg_applet_launcher table is used instead of sys_sg_application so, to support Madrid release customers, we will inactivate all application if the customer instance is N or N+</description>
+        <flush_cache>false</flush_cache>
+        <name>For Madrid Support</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>false</run_once>
+        <script><![CDATA[var grAppletLauncher = new GlideRecord('sys_sg_applet_launcher');
+if(grAppletLauncher.isValid()){
+	var grMobileApp = new GlideRecord('sys_sg_application');
+	grMobileApp.addActiveQuery();
+	grMobileApp.addQuery('sys_scope', 'a0869fa7dbb4f700d475f9afaa9619eb');
+	grMobileApp.query();
+	while(grMobileApp.next()){
+		grMobileApp.active = false;
+		grMobileApp.update();
+	}
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 11:59:48</sys_created_on>
+        <sys_id>219c6874db373300304b8e47489619ee</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>For Madrid Support</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_script_fix_219c6874db373300304b8e47489619ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 12:05:32</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

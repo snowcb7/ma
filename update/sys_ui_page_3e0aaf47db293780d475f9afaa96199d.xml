@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_26961_mobile_a_shareFeedback.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	
+<div style="margin-top:50%">
+ <a href="mailto:support@identitysol.com?subject=Feedback%20for%20Mobile%20Assist%20App" id="mail" target="_blank">Click here to send an email through your Mail app</a> <br/>or you can send an email to <strong>"support@identitysol.com"</strong>
+ </div>
+</j:jelly>]]></html>
+        <name>shareFeedback</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-26 05:06:29</sys_created_on>
+        <sys_id>3e0aaf47db293780d475f9afaa96199d</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>shareFeedback</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_ui_page_3e0aaf47db293780d475f9afaa96199d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-02 02:17:16</sys_updated_on>
+    </sys_ui_page>
+</record_update>

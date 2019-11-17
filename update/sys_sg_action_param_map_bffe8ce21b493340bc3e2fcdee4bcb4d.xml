@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Reassign">934a15561b413340bc3e2fcdee4bcb6a</button>
+        <item_parameter display_value="Assign_Case_Assign_To">c11b9d561b413340bc3e2fcdee4bcb40</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-29 03:21:10</sys_created_on>
+        <sys_id>bffe8ce21b493340bc3e2fcdee4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c11b9d561b413340bc3e2fcdee4bcb40</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_bffe8ce21b493340bc3e2fcdee4bcb4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-29 03:21:10</sys_updated_on>
+        <ui_parameter display_value="Assigned To">980e8c621b493340bc3e2fcdee4bcb62</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

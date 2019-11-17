@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_detail_screen">
+    <sys_sg_master_detail_screen action="INSERT_OR_UPDATE">
+        <application_roles>x_26961_mobile_a.user</application_roles>
+        <available_offline>true</available_offline>
+        <data_item display_value="Task - My Group Assigned">b7167f8fdb293780d475f9afaa9619c3</data_item>
+        <description>Tasks assigned to all my Groups (Tasks like Incidents, Problem, Cases ,Change Tasks etc.)</description>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="list-alt">bc62d0d21b4efb00bc3e2fcdee4bcbcd</icon>
+        <name>Assigned</name>
+        <order>10</order>
+        <parent>5f679d7b1bf93700bc3e2fcdee4bcb02</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_master_detail_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 14:23:28</sys_created_on>
+        <sys_id>b276b3cfdb293780d475f9afaa961938</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Assigned</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_master_detail_screen_b276b3cfdb293780d475f9afaa961938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 01:59:33</sys_updated_on>
+    </sys_sg_master_detail_screen>
+</record_update>

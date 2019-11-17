@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_activity_stream_screen">
+    <sys_sg_activity_stream_screen action="INSERT_OR_UPDATE">
+        <add_additional_comment_button>true</add_additional_comment_button>
+        <add_attachment_button>true</add_attachment_button>
+        <add_work_note_button>true</add_work_note_button>
+        <application_roles>sn_customerservice_agent</application_roles>
+        <available_offline>true</available_offline>
+        <data_item display_value="My Group unassigned ">bbe3b04a1bc1ff00bc3e2fcdee4bcb83</data_item>
+        <description/>
+        <fetch_type>background</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">c573a18cdb093b00d475f9afaa9619a5</icon>
+        <name>Activity Stream</name>
+        <order>20</order>
+        <parent>1a9a64c0db853b00d475f9afaa961912</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_activity_stream_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-21 11:14:14</sys_created_on>
+        <sys_id>a2bea484db853b00d475f9afaa96199f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Activity Stream</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_activity_stream_screen_a2bea484db853b00d475f9afaa96199f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-27 16:47:10</sys_updated_on>
+    </sys_sg_activity_stream_screen>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_detail_screen">
+    <sys_sg_master_detail_screen action="INSERT_OR_UPDATE">
+        <application_roles>sn_customerservice_agent</application_roles>
+        <available_offline>true</available_offline>
+        <data_item display_value="My Group unassigned ">bbe3b04a1bc1ff00bc3e2fcdee4bcb83</data_item>
+        <description>My Group cases which are not assigned to any agent </description>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">b058bc20db82b700d475f9afaa96191f</icon>
+        <name>Unassigned</name>
+        <order>20</order>
+        <parent>cf38fbff1b387b00bc3e2fcdee4bcb6f</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_master_detail_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 14:23:28</sys_created_on>
+        <sys_id>1e9a64c0db853b00d475f9afaa96190e</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Unassigned</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_master_detail_screen_1e9a64c0db853b00d475f9afaa96190e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-11 18:15:56</sys_updated_on>
+    </sys_sg_master_detail_screen>
+</record_update>

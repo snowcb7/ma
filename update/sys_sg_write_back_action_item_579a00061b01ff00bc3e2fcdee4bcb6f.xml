@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+	var wotGR = new GlideRecord("sn_customerservice_case");
+	if (!wotGR.get(input.sys_id)) {
+		gs.error("wot_assign_to_me write-back action - failed to find work order task");
+		gs.addErrorMessage(gs.getMessage("Case assignment failed."));
+		return;
+	}
+	wotGR.assigned_to = gs.getUserID();
+	wotGR.update();
+})(input);]]></execution_script>
+        <name>Assigned to Me</name>
+        <query_condition table="task">sys_id={{unassigned_case_sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="{{unassigned_case_sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-27 13:48:53</sys_created_on>
+        <sys_id>579a00061b01ff00bc3e2fcdee4bcb6f</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Assigned to Me</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_579a00061b01ff00bc3e2fcdee4bcb6f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-09 13:29:53</sys_updated_on>
+        <table>task</table>
+        <template>assigned_to={{task_assigned_to}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+</record_update>

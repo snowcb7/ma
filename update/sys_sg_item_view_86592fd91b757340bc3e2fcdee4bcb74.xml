@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="User Groups Master">7d086b191b757340bc3e2fcdee4bcb05</data_item>
+        <dependency_fields>user.avatar,user.name,user.title,user.department</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":14,"Bottom":16},"Orientation":"Horizontal","Alignment":"Top","Distribution":"Auto","Children":[{"Type":"Image","CornerRadius":24,"Height":48,"Width":48,"Margin":{"Right":16},"studio_template_field_id":"E1","Scaling":"Fill","CellId":"user.avatar","Id":42257},{"Type":"ViewGroup","Margin":{},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","studio_template_field_id":"E2","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"medium","Size":18},"CellId":"user.name","Id":45538},{"Type":"Text","Margin":{"Top":4},"studio_template_field_id":"E3","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":14},"CellId":"user.title","Id":45539},{"Type":"Text","Margin":{"Top":5},"studio_template_field_id":"E4","TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":45540,"CellId":"user.department"}],"Id":12260}],"studio_card_id":"6a08b23023052300a8ed7f4fc7bf6558","Id":28090}</item_view_json>
+        <name>Group item view</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-02 04:49:05</sys_created_on>
+        <sys_id>86592fd91b757340bc3e2fcdee4bcb74</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Group item view</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_item_view_86592fd91b757340bc3e2fcdee4bcb74</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-17 14:09:28</sys_updated_on>
+        <ui_styles/>
+    </sys_sg_item_view>
+</record_update>

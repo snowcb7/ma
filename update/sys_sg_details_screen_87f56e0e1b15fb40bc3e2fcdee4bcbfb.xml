@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <application_roles>x_26961_mobile_a.user</application_roles>
+        <available_offline>false</available_offline>
+        <data_item display_value="Task Details">04956eca1b15fb40bc3e2fcdee4bcba5</data_item>
+        <description/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">d1f52e0e1b15fb40bc3e2fcdee4bcb9f</icon>
+        <item_view display_value="Task Details detail item view">b1f5a60e1b15fb40bc3e2fcdee4bcb37</item_view>
+        <name>Details</name>
+        <order>10</order>
+        <parent>eaf56e0e1b15fb40bc3e2fcdee4bcbf7</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 14:23:23</sys_created_on>
+        <sys_id>87f56e0e1b15fb40bc3e2fcdee4bcbfb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_details_screen_87f56e0e1b15fb40bc3e2fcdee4bcbfb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-10 11:25:18</sys_updated_on>
+    </sys_sg_details_screen>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Assign_Case_Assignment_Group</name>
+        <parent>918a95561b413340bc3e2fcdee4bcbfe</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-28 14:15:09</sys_created_on>
+        <sys_id>e53b11961b413340bc3e2fcdee4bcb25</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Assign_Case_Assignment_Group</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_e53b11961b413340bc3e2fcdee4bcb25</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-29 03:23:24</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

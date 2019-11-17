@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Employee User Location">507a9bdd1b357340bc3e2fcdee4bcb9a</button>
+        <description/>
+        <field_name>location</field_name>
+        <label>Location_field</label>
+        <location>field</location>
+        <name>Location_field</name>
+        <order>3</order>
+        <parent>d459df9d1b357340bc3e2fcdee4bcb25</parent>
+        <parent_table>sys_sg_details_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-02 03:44:12</sys_created_on>
+        <sys_id>af7a1fdd1b357340bc3e2fcdee4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Location_field</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_button_instance_af7a1fdd1b357340bc3e2fcdee4bcb6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-02 03:44:12</sys_updated_on>
+        <table>sys_user</table>
+    </sys_sg_button_instance>
+</record_update>

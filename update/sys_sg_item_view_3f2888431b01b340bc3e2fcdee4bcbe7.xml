@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="My Priority Cases">586f23731b387b00bc3e2fcdee4bcba3</data_item>
+        <dependency_fields>sys_group_by-41927,sys_count-45538</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":14},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","Text":"PLACEHOLDER","CellId":"sys_group_by","TextColor":"#293e40","TextAlignment":"Left","MaxLines":2,"Font":{"Weight":"regular","Size":16},"Id":41927}],"Id":12259},{"Type":"ViewGroup","Margin":{"Left":16,"Right":16},"Orientation":"Vertical","Alignment":"Stretch","Distribution":"Auto","Children":[{"Type":"Text","Text":"9999","CellId":"sys_count","TextColor":"#7d8a8c","TextAlignment":"Right","MaxLines":1,"Font":{"Weight":"regular","Size":14},"Margin":{},"Id":45538}],"Id":12260},{"Type":"ViewGroup","Width":50,"Margin":{"Right":16},"Orientation":"Vertical","Alignment":"Right","Distribution":"Auto","Children":[{"Type":"Text","Width":50,"Margin":{},"Text":"","TextColor":"#a7b0b2","TextAlignment":"Right","MaxLines":1,"Font":{"Weight":"regular","Size":14,"Name":"icomoon"},"Id":32752}],"Id":12261}],"Id":28090}</item_view_json>
+        <name>My Priority Cases - Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-30 16:09:49</sys_created_on>
+        <sys_id>3f2888431b01b340bc3e2fcdee4bcbe7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>My Priority Cases - Item View</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_item_view_3f2888431b01b340bc3e2fcdee4bcbe7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-09-05 04:01:38</sys_updated_on>
+        <ui_styles/>
+    </sys_sg_item_view>
+</record_update>

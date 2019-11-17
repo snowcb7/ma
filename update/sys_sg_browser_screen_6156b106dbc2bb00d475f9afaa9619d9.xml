@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen">
+    <sys_sg_browser_screen action="INSERT_OR_UPDATE">
+        <application_roles>x_26961_mobile_a.user</application_roles>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description>Performance Analytics Dashboard</description>
+        <external_browser>false</external_browser>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="chart-bar">52e1a3ca1b8afb00bc3e2fcdee4bcbf2</icon>
+        <name>SLA Dashboard</name>
+        <order>30</order>
+        <parent>2e3dd882dbce7b00d475f9afaa9619ca</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <relative_url>true</relative_url>
+        <roles_override/>
+        <sys_class_name>sys_sg_browser_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-16 14:38:00</sys_created_on>
+        <sys_id>6156b106dbc2bb00d475f9afaa9619d9</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>SLA Dashboard</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_browser_screen_6156b106dbc2bb00d475f9afaa9619d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-16 22:27:45</sys_updated_on>
+        <url>/$pa_dashboard.do?sysparm_dashboard=bb118a0edbc2bb00d475f9afaa961968&amp;sysparm_tab=22310a0edbc2bb00d475f9afaa9619b0&amp;sysparm_cancelable=true&amp;sysparm_editable=true&amp;sysparm_active_panel=shareOptionsSideContent</url>
+    </sys_sg_browser_screen>
+</record_update>

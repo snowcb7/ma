@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Propose Solution">eb35e1ce1b5dbb40bc3e2fcdee4bcbd3</button>
+        <item_parameter display_value="case_sys_id">00d6e9821b9dbb40bc3e2fcdee4bcba9</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-10 06:50:02</sys_created_on>
+        <sys_id>9668a1861b9dbb40bc3e2fcdee4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>00d6e9821b9dbb40bc3e2fcdee4bcba9</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_9668a1861b9dbb40bc3e2fcdee4bcb7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-10 06:50:02</sys_updated_on>
+        <ui_parameter display_value="Case Sys ID">5d26a1421b9dbb40bc3e2fcdee4bcbc1</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

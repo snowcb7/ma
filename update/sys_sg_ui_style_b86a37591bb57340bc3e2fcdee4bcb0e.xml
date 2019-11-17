@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_style">
+    <sys_sg_ui_style action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="task_sla">task.priority=4^EQ<item endquery="false" field="task.priority" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <field>task.priority</field>
+        <name>TASK_SLA_PRIORITY_P4</name>
+        <style>{"background_color":"#C9C9ED","font_color":"#38385B"}</style>
+        <sys_class_name>sys_sg_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-02 06:03:33</sys_created_on>
+        <sys_id>b86a37591bb57340bc3e2fcdee4bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TASK_SLA_PRIORITY_P4</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_ui_style_b86a37591bb57340bc3e2fcdee4bcb0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-02 06:03:33</sys_updated_on>
+        <table>task_sla</table>
+    </sys_sg_ui_style>
+</record_update>

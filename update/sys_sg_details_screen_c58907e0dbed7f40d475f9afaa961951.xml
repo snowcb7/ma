@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <application_roles>x_26961_mobile_a.user</application_roles>
+        <available_offline>true</available_offline>
+        <data_item display_value="SLA">ae177664dbad7f40d475f9afaa961954</data_item>
+        <description>SLA list sort by business time left</description>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="clock">a779c3e0dbed7f40d475f9afaa9619f4</icon>
+        <item_view display_value="SLA sort by business time detail item view">dc89c3e0dbed7f40d475f9afaa961981</item_view>
+        <name>Details</name>
+        <order>10</order>
+        <parent>7c89c3e0dbed7f40d475f9afaa9619b7</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 14:23:23</sys_created_on>
+        <sys_id>c58907e0dbed7f40d475f9afaa961951</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_details_screen_c58907e0dbed7f40d475f9afaa961951</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-19 04:24:11</sys_updated_on>
+    </sys_sg_details_screen>
+</record_update>

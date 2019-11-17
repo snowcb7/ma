@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_detail_screen">
+    <sys_sg_master_detail_screen action="INSERT_OR_UPDATE">
+        <application_roles>sn_customerservice_agent</application_roles>
+        <available_offline>true</available_offline>
+        <data_item display_value="Unassigned Cases">f13aa880db853b00d475f9afaa96190e</data_item>
+        <description>Cases not assigned to any group or agent (Assignment Group and Assign to are empty)</description>
+        <fetch_type>not_required</fetch_type>
+        <hidden>true</hidden>
+        <icon display_value="file-alt">3c4d2b67db313700d475f9afaa961911</icon>
+        <name>Unassigned</name>
+        <order>10</order>
+        <parent>e5c8a3a3db313700d475f9afaa96195c</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_master_detail_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 14:23:28</sys_created_on>
+        <sys_id>1865999a1b013340bc3e2fcdee4bcbb4</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Unassigned</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_master_detail_screen_1865999a1b013340bc3e2fcdee4bcbb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 04:38:25</sys_updated_on>
+    </sys_sg_master_detail_screen>
+</record_update>

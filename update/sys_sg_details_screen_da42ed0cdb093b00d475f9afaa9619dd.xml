@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <application_roles>sn_customerservice_agent</application_roles>
+        <available_offline>true</available_offline>
+        <data_item display_value="Escalated">84026d0cdb093b00d475f9afaa961938</data_item>
+        <description>Escalated Cases</description>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">e442214cdb093b00d475f9afaa96191b</icon>
+        <item_view display_value="Escalated detail item view">0142214cdb093b00d475f9afaa961922</item_view>
+        <name>Details</name>
+        <order>10</order>
+        <parent>ed42214cdb093b00d475f9afaa961924</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 14:23:23</sys_created_on>
+        <sys_id>da42ed0cdb093b00d475f9afaa9619dd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_details_screen_da42ed0cdb093b00d475f9afaa9619dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-21 15:02:25</sys_updated_on>
+    </sys_sg_details_screen>
+</record_update>

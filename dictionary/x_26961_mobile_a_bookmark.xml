@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bookmark" max_length="40" name="x_26961_mobile_a_bookmark" type="collection">
+        <element label="Comments" max_length="4000" name="comments" type="string"/>
+        <element label="Name" max_length="200" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Record" max_length="32" name="record" reference="task" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="record"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

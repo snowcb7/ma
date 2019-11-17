@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field">
+    <sys_sg_redirect_dest_field action="INSERT_OR_UPDATE">
+        <button display_value="TASK SLA_Assigned_to">0e3f04e91bf57340bc3e2fcdee4bcb43</button>
+        <button_table>task_sla</button_table>
+        <constant_value/>
+        <destination_ui_parameter display_value="User Sys ID">1180e3551b757340bc3e2fcdee4bcbb4</destination_ui_parameter>
+        <source_field>task</source_field>
+        <source_ui_parameter/>
+        <sys_class_name>sys_sg_redirect_dest_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-02 07:45:15</sys_created_on>
+        <sys_id>62a1546d1bf57340bc3e2fcdee4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1180e3551b757340bc3e2fcdee4bcbb4</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_redirect_dest_field_62a1546d1bf57340bc3e2fcdee4bcb99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-02 07:45:15</sys_updated_on>
+        <type>field</type>
+    </sys_sg_redirect_dest_field>
+</record_update>

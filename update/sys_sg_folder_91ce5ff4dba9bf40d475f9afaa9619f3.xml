@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_folder">
+    <sys_sg_folder action="INSERT_OR_UPDATE">
+        <application display_value="Mobile Assist - Global">90e462861b15fb40bc3e2fcdee4bcb2a</application>
+        <name>Self-Service</name>
+        <order>7</order>
+        <sys_class_name>sys_sg_folder</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-19 04:30:13</sys_created_on>
+        <sys_id>91ce5ff4dba9bf40d475f9afaa9619f3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Self-Service</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_folder_91ce5ff4dba9bf40d475f9afaa9619f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-16 21:52:13</sys_updated_on>
+    </sys_sg_folder>
+</record_update>

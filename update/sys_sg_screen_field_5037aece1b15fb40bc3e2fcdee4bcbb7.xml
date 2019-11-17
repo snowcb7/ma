@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>sla_due</data_item_field_name>
+        <hidden>false</hidden>
+        <order>110</order>
+        <screen display_value="Details">87f56e0e1b15fb40bc3e2fcdee4bcbfb</screen>
+        <screen_data_item_table>task</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-10 11:24:06</sys_created_on>
+        <sys_id>5037aece1b15fb40bc3e2fcdee4bcbb7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>sla_due</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_screen_field_5037aece1b15fb40bc3e2fcdee4bcbb7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 17:26:54</sys_updated_on>
+        <type>auto</type>
+    </sys_sg_screen_field>
+</record_update>

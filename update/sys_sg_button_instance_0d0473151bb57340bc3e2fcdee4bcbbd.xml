@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="User Details by WatchList">a4f3bfd11bb57340bc3e2fcdee4bcbb1</button>
+        <description/>
+        <field_name>watch_list</field_name>
+        <label>Watch list_field</label>
+        <location>field</location>
+        <name>Watch list_field</name>
+        <order>4</order>
+        <parent>87f56e0e1b15fb40bc3e2fcdee4bcbfb</parent>
+        <parent_table>sys_sg_details_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-02 05:35:42</sys_created_on>
+        <sys_id>0d0473151bb57340bc3e2fcdee4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Watch list_field</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_button_instance_0d0473151bb57340bc3e2fcdee4bcbbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-02 05:35:42</sys_updated_on>
+        <table>task</table>
+    </sys_sg_button_instance>
+</record_update>

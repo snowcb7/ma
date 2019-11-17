@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <application_roles>x_26961_mobile_a.user</application_roles>
+        <available_offline>false</available_offline>
+        <data_item display_value="User Groups Master">7d086b191b757340bc3e2fcdee4bcb05</data_item>
+        <description/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="address-book">f559ebd91b757340bc3e2fcdee4bcb93</icon>
+        <item_view display_value="Group detail item view">82592fd91b757340bc3e2fcdee4bcb1c</item_view>
+        <name>Group Details</name>
+        <order>10</order>
+        <parent>2e592fd91b757340bc3e2fcdee4bcb77</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 14:23:23</sys_created_on>
+        <sys_id>7659ebd91b757340bc3e2fcdee4bcb98</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Group Details</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_details_screen_7659ebd91b757340bc3e2fcdee4bcb98</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-02 05:10:18</sys_updated_on>
+    </sys_sg_details_screen>
+</record_update>

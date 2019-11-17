@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Remove Bookmark">e4ff418e1b99bb40bc3e2fcdee4bcbfe</button>
+        <description/>
+        <field_name/>
+        <label>Remove Bookmark</label>
+        <location>trailing_swipe</location>
+        <name>Remove Bookmark</name>
+        <order>3</order>
+        <parent>9979bbb31b787b00bc3e2fcdee4bcb1e</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 04:15:52</sys_created_on>
+        <sys_id>b6c1b5331ba93f00bc3e2fcdee4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remove Bookmark</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_button_instance_b6c1b5331ba93f00bc3e2fcdee4bcba1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 04:15:52</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+</record_update>

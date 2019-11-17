@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab 2">7f41c6cadbc2bb00d475f9afaa96194e</grid_canvas>
+        <height>18</height>
+        <portal_widget display_value="Created 2019-06-16 08:26:21">9171cecadbc2bb00d475f9afaa961912</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-16 15:26:21</sys_created_on>
+        <sys_id>ed71cecadbc2bb00d475f9afaa961913</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>7f41c6cadbc2bb00d475f9afaa96194e</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_ed71cecadbc2bb00d475f9afaa961913</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-16 15:26:35</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

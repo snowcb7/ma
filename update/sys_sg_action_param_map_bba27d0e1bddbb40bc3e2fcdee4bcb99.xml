@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Close Case">e2cf6d461bddbb40bc3e2fcdee4bcb01</button>
+        <item_parameter display_value="resolution_code">3261718a1bddbb40bc3e2fcdee4bcb00</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-10 07:34:54</sys_created_on>
+        <sys_id>bba27d0e1bddbb40bc3e2fcdee4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3261718a1bddbb40bc3e2fcdee4bcb00</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_bba27d0e1bddbb40bc3e2fcdee4bcb99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-10 07:34:54</sys_updated_on>
+        <ui_parameter display_value="Resolution code">1220b5c61bddbb40bc3e2fcdee4bcb1f</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

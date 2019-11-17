@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_26961_mobile_a_redirectToDefaultPortal.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<g:evaluate jelly="true">
+	var portal_url = '/'+gs.getProperty('x_26961_mobile_a.service_portal_url', '');
+	if(portal_url == '/'){
+		var grPortal = new GlideRecord('sp_portal');
+		grPortal.addQuery('default', true);
+		grPortal.query();
+		if(grPortal.next()){
+			portal_url = '/'+grPortal.getValue('url_suffix');	
+		}
+	}
+</g:evaluate>
+	<input type="hidden" id="portal_url" name='portal_url' value="${HTML:portal_url}" />
+	<script>
+		window.location.href = document.getElementById('portal_url').value;
+	</script>
+</j:jelly>]]></html>
+        <name>redirectToDefaultPortal</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-25 16:42:06</sys_created_on>
+        <sys_id>b0cf3c8f1b25bb00bc3e2fcdee4bcba0</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>redirectToDefaultPortal</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_ui_page_b0cf3c8f1b25bb00bc3e2fcdee4bcba0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-23 14:50:03</sys_updated_on>
+    </sys_ui_page>
+</record_update>

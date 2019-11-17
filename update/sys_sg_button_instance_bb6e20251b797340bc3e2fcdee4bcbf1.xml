@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Group by assignment group">cbd9efd91b757340bc3e2fcdee4bcbf2</button>
+        <description/>
+        <field_name>assignment_group</field_name>
+        <label>Assignment group_field</label>
+        <location>field</location>
+        <name>Assignment group_field</name>
+        <order>1</order>
+        <parent>da42ed0cdb093b00d475f9afaa9619dd</parent>
+        <parent_table>sys_sg_details_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-02 09:50:56</sys_created_on>
+        <sys_id>bb6e20251b797340bc3e2fcdee4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment group_field</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_button_instance_bb6e20251b797340bc3e2fcdee4bcbf1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-02 09:50:56</sys_updated_on>
+        <table>sn_customerservice_case</table>
+    </sys_sg_button_instance>
+</record_update>

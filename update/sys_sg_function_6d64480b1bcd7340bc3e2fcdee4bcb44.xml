@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_function">
+    <sys_sg_function action="INSERT_OR_UPDATE">
+        <data_item display_value="My Priority Cases">586f23731b387b00bc3e2fcdee4bcba3</data_item>
+        <function>count</function>
+        <input/>
+        <name>My Case assigned (By Priority)</name>
+        <sys_class_name>sys_sg_function</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-30 15:52:00</sys_created_on>
+        <sys_id>6d64480b1bcd7340bc3e2fcdee4bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Case assigned (By Priority)</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_function_6d64480b1bcd7340bc3e2fcdee4bcb44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-30 15:52:00</sys_updated_on>
+    </sys_sg_function>
+</record_update>

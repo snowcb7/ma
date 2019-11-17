@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon>{"Name":"Inventory"}</icon>
+        <name>Inventory Icon</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 10:49:47</sys_created_on>
+        <sys_id>60fd1c34dbf33300304b8e4748961957</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Inventory Icon</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_icon_60fd1c34dbf33300304b8e4748961957</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 11:05:30</sys_updated_on>
+    </sys_sg_icon>
+</record_update>

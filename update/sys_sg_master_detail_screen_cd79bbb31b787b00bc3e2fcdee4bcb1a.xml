@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_detail_screen">
+    <sys_sg_master_detail_screen action="INSERT_OR_UPDATE">
+        <application_roles>sn_customerservice_agent</application_roles>
+        <available_offline>true</available_offline>
+        <data_item display_value="My Group Priority Cases">7e3933b31b787b00bc3e2fcdee4bcb23</data_item>
+        <description>Cases assigned to all my groups and sorted by Priority</description>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">6ec15c521b4efb00bc3e2fcdee4bcba4</icon>
+        <name>Assigned</name>
+        <order>10</order>
+        <parent>cf38fbff1b387b00bc3e2fcdee4bcb6f</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_master_detail_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 14:23:28</sys_created_on>
+        <sys_id>cd79bbb31b787b00bc3e2fcdee4bcb1a</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Assigned</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_master_detail_screen_cd79bbb31b787b00bc3e2fcdee4bcb1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 01:56:57</sys_updated_on>
+    </sys_sg_master_detail_screen>
+</record_update>

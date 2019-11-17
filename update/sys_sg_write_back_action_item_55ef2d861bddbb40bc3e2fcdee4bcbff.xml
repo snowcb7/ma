@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+	//Type appropriate comment here, and begin script below
+	var grCase = new GlideRecord('sn_customerservice_case');
+	if (grCase.get( input.case_sys_id)){
+		grCase.resolution_code = input.resolution_code;
+		grCase.close_notes = input.close_notes;
+		
+		//current.setAbortAction(true);
+		new global.StateFlow().processFlow(grCase, 'd8069501c33231005f76b2c712d3aead', 'manual');
+		//if currect user is the case caller, redirect the user to survey
+		if(grCase.contact == gs.getUserID()){
+			//The executed triggerCondition sys_id
+			var TriggerConditionId = "97a9bec1c37231005b2c7bfaa2d3ae33";
+			//The assessment sys_id in the executed triggerCondition
+			var assessmentType = "a0dfbc85c33231001b757bfaa2d3aee7";
+			var assessmentSysId;
+			var gr = new GlideRecord("asmt_assessment_instance");
+			gr.addQuery("trigger_condition", TriggerConditionId);
+			gr.addQuery("user", grCase.contact);
+			gr.addQuery("state","ready");
+			gr.addQuery("trigger_id",grCase.sys_id);
+			gr.query();
+			if(gr.next()){
+				assessmentSysId = gr.getValue("sys_id");
+				if(!gs.nil(assessmentSysId)) {
+					var url = '/assessment_take2.do?sysparm_assessable_type='+assessmentType+'&sysparm_assessable_sysid='+assessmentSysId;
+					action.setRedirectURL(url);
+				}
+			}
+		}
+		grCase.update();
+	}
+})(input);]]></execution_script>
+        <name>Close Case</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-10 07:22:45</sys_created_on>
+        <sys_id>55ef2d861bddbb40bc3e2fcdee4bcbff</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Close Case</sys_name>
+        <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_55ef2d861bddbb40bc3e2fcdee4bcbff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-10 07:34:26</sys_updated_on>
+        <table/>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+</record_update>
