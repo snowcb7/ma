@@ -17,22 +17,22 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Power of ServiceNow in your pockert!</short_description>
         <source>x_26961_mobile_a</source>
-        <store_correlation_id>APP0014185</store_correlation_id>
+        <store_correlation_id>APP0014283</store_correlation_id>
         <store_url>https://tpp.servicenow.com/sn_appstore_s</store_url>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>chirag.bagdai@snc</sys_created_by>
         <sys_created_on>2019-07-23 14:24:40</sys_created_on>
         <sys_id>a0869fa7dbb4f700d475f9afaa9619eb</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 08:53:41</sys_updated_on>
+        <sys_updated_on>2019-11-25 16:23:01</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.13</version>
+        <version>1.0.15</version>
     </sys_app>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#f7fbfa</average_image_color>

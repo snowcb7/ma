@@ -7,21 +7,21 @@
         <label>Open Task</label>
         <location>top</location>
         <name>Open Task</name>
-        <order>4</order>
+        <order>2</order>
         <parent>c58907e0dbed7f40d475f9afaa961951</parent>
         <parent_table>sys_sg_details_screen</parent_table>
         <sys_class_name>sys_sg_button_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-05 11:08:48</sys_created_on>
         <sys_id>8ebcbe48db6e7b40d475f9afaa9619b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Open Task</sys_name>
         <sys_package display_value="Mobile Assist" source="x_26961_mobile_a">a0869fa7dbb4f700d475f9afaa9619eb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mobile Assist">a0869fa7dbb4f700d475f9afaa9619eb</sys_scope>
         <sys_update_name>sys_sg_button_instance_8ebcbe48db6e7b40d475f9afaa9619b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-05 11:08:48</sys_updated_on>
+        <sys_updated_on>2019-11-25 16:11:07</sys_updated_on>
         <table/>
     </sys_sg_button_instance>
 </record_update>
